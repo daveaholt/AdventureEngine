@@ -1,0 +1,35 @@
+# Build artifacts
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+
+# Intermediate files
+*.pch
+*.gch
+*.idb
+*.ipch
+*.tlog
+*.log
+
+# Visual Studio specific files and folders
+.vs/
+Debug/
+Release/
+x64/
+Win32/
+ipch/
+*.suo
+*.user
+*.VC.opendb
+
+# Temporary/Cache files
+*.~
+*.bak
+*.tmp
+
+# User-specific files (optional, if not shared)
+*.user
