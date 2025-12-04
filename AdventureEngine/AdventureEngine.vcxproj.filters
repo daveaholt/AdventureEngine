@@ -45,7 +45,7 @@
     <ClCompile Include="OGL3D\source\OGL3D\Window\CWin32Window.cpp">
       <Filter>OGL3D\source\OGL3D\Window</Filter>
     </ClCompile>
-    <ClCompile Include="OGL3D\source\OGL3D\Gane\OGame.cpp">
+    <ClCompile Include="OGL3D\source\OGL3D\Game\OGame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="OGL3D\source\OGL3D\Graphics\OGraphicsEngine.cpp">
@@ -57,10 +57,13 @@
     <ClCompile Include="OGL3D\vendor\glad\src\glad_wgl.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="OGL3D\source\OGL3D\Gane\Win32\CWin32Game.cpp">
+    <ClCompile Include="OGL3D\source\OGL3D\Game\Win32\CWin32Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="OGL3D\source\OGL3D\Graphics\Win32\CWin32GraphicsEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OGL3D\source\OGL3D\Graphics\OVertexArrayObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -78,6 +81,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="OGL3D\include\OGL3D\OPrerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL3D\include\OGL3D\Math\ORect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL3D\include\OGL3D\Graphics\OVertexArrayObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
